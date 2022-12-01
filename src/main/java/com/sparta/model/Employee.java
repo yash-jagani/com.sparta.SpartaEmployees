@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat;
 import java.time.format.DateTimeParseException;
 import java.util.Date;
 
-public class Employee {
+public class Employee implements Comparable<Employee> {
 
     private String employeeNumber;
     private SimpleDateFormat dateFormat = new SimpleDateFormat("YYYY-MM-DD");
@@ -24,6 +24,10 @@ public class Employee {
         this.hireDate = hireDate;
     }
 
+    public String getLastName() {
+        return this.lastName;
+    }
+
     @Override
     public int hashCode() {
         return super.hashCode();
@@ -32,5 +36,10 @@ public class Employee {
     @Override
     public String toString() {
         return employeeNumber + "," + birthDate + "," + firstName + "," + lastName + "," + gender + "," + hireDate;
+    }
+
+    @Override
+    public int compareTo(Employee o) {
+        return Integer.parseInt(this.employeeNumber) - Integer.parseInt(o.employeeNumber);
     }
 }

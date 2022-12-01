@@ -1,32 +1,26 @@
 package com.sparta.view;
 
+import com.sparta.model.Converter;
 import com.sparta.model.Employee;
 import com.sparta.model.EmployeeFactory;
 
-import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class Starter {
 
-    public static void start(){
-        List< Employee> employeeList = new ArrayList<>();
+    public static void start() {
+        EmployeeFactory employeeFactory = new EmployeeFactory();
+        Set<Employee> employees;
+        String[] employeesStrArr;
         try {
-            String[] employees = EmployeeFactory.getEmployees(6);
-            for(String employee : employees) {
-                String[] tokens = employee.split(",");
+            employeesStrArr = EmployeeFactory.getEmployees(1000);
 
-                employeeList.add(new Employee(tokens[0],tokens[1],tokens[2],tokens[3],tokens[4],tokens[5]));
-
-            }
+            employees = Converter.convertToEmployees(employeesStrArr);
+            employeeFactory.printEmployees(employees);
+            System.out.println(employees.size());
         } catch (IOException e) {
             throw new RuntimeException(e);
-        }
-        for (Employee emp : employeeList){
-            System.out.println(emp);
         }
     }
 }
