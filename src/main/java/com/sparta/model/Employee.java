@@ -1,21 +1,17 @@
 package com.sparta.model;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.time.format.DateTimeParseException;
-import java.util.Date;
+import java.time.LocalDate;
 
-public class Employee implements Comparable<Employee> {
+public class Employee {
 
     private String employeeNumber;
-    private SimpleDateFormat dateFormat = new SimpleDateFormat("YYYY-MM-DD");
-    private String birthDate;
+    private LocalDate birthDate;
     private String firstName;
     private String lastName;
     private String gender;
-    private String hireDate;
+    private LocalDate hireDate;
 
-    public Employee(String employeeNumber, String birthDate, String firstName, String lastName, String gender, String hireDate) {
+    public Employee(String employeeNumber, LocalDate birthDate, String firstName, String lastName, String gender, LocalDate hireDate) {
         this.employeeNumber = employeeNumber;
         this.birthDate = birthDate;
         this.firstName = firstName;
@@ -24,8 +20,52 @@ public class Employee implements Comparable<Employee> {
         this.hireDate = hireDate;
     }
 
+    public String getEmployeeNumber() {
+        return employeeNumber;
+    }
+
+    public void setEmployeeNumber(String employeeNumber) {
+        this.employeeNumber = employeeNumber;
+    }
+
+    public LocalDate getBirthDate() {
+        return birthDate;
+    }
+
+    public void setBirthDate(LocalDate birthDate) {
+        this.birthDate = birthDate;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
     public String getLastName() {
-        return this.lastName;
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public LocalDate getHireDate() {
+        return hireDate;
+    }
+
+    public void setHireDate(LocalDate hireDate) {
+        this.hireDate = hireDate;
     }
 
     @Override
@@ -38,8 +78,15 @@ public class Employee implements Comparable<Employee> {
         return employeeNumber + "," + birthDate + "," + firstName + "," + lastName + "," + gender + "," + hireDate;
     }
 
-    @Override
-    public int compareTo(Employee o) {
-        return Integer.parseInt(this.employeeNumber) - Integer.parseInt(o.employeeNumber);
-    }
+//    public List<Employee> getEmployeeByLastName(List<Employee> employeeSet, String lastName) {
+//        List<Employee> result = new ArrayList<>();
+//        for (Employee employee : employeeSet) {
+//            if (employee.getLastName().equals(lastName)) {
+//                result.add(employee);
+//            }
+//        }
+//        return result;
+//    }
+
+
 }
