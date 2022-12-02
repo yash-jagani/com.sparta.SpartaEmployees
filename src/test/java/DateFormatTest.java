@@ -1,10 +1,9 @@
-import com.sparta.model.EmployeeFactory;
+import com.sparta.controller.DateFormat;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;
-
 
 class DateFormatTest {
 
@@ -13,9 +12,9 @@ class DateFormatTest {
     void dateFormattingTestWithMMddYYYY() {
         String date1 = "01/02/2019", date2 = "06/15/2017", date3 = "12/07/1999";
         LocalDate expected1 = LocalDate.of(2019, 1, 2), expected2 = LocalDate.of(2017,6,15), expected3 = LocalDate.of(1999,12,7);
-        Assertions.assertEquals(expected1, EmployeeFactory.dateFormatter(date1));
-        Assertions.assertEquals(expected2, EmployeeFactory.dateFormatter(date2));
-        Assertions.assertEquals(expected3, EmployeeFactory.dateFormatter(date3));
+        Assertions.assertEquals(expected1, DateFormat.dateFormatter(date1));
+        Assertions.assertEquals(expected2, DateFormat.dateFormatter(date2));
+        Assertions.assertEquals(expected3, DateFormat.dateFormatter(date3));
     }
 
     @Test
@@ -23,8 +22,9 @@ class DateFormatTest {
     void dateFormatterTestingWithMdYYYY() {
         String date1 = "1/2/2019", date2 = "6/15/2017", date3 = "12/7/1999";
         LocalDate expected1 = LocalDate.of(2019, 1, 2), expected2 = LocalDate.of(2017,6,15), expected3 = LocalDate.of(1999,12,7);
-        Assertions.assertEquals(expected1, EmployeeFactory.dateFormatter(date1));
-        Assertions.assertEquals(expected2, EmployeeFactory.dateFormatter(date2));
-        Assertions.assertEquals(expected3, EmployeeFactory.dateFormatter(date3));
+        Assertions.assertEquals(expected1, DateFormat.dateFormatter(date1));
+        Assertions.assertEquals(expected2, DateFormat.dateFormatter(date2));
+        Assertions.assertEquals(expected3, DateFormat.dateFormatter(date3));
     }
+
 }

@@ -2,7 +2,7 @@ package com.sparta.model;
 
 import java.time.LocalDate;
 
-public class Employee {
+public class Employee implements Comparable<Employee> {
 
     private String employeeNumber;
     private LocalDate birthDate;
@@ -20,52 +20,8 @@ public class Employee {
         this.hireDate = hireDate;
     }
 
-    public String getEmployeeNumber() {
-        return employeeNumber;
-    }
-
-    public void setEmployeeNumber(String employeeNumber) {
-        this.employeeNumber = employeeNumber;
-    }
-
-    public LocalDate getBirthDate() {
-        return birthDate;
-    }
-
-    public void setBirthDate(LocalDate birthDate) {
-        this.birthDate = birthDate;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
     public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public String getGender() {
-        return gender;
-    }
-
-    public void setGender(String gender) {
-        this.gender = gender;
-    }
-
-    public LocalDate getHireDate() {
-        return hireDate;
-    }
-
-    public void setHireDate(LocalDate hireDate) {
-        this.hireDate = hireDate;
+        return lastName.toLowerCase();
     }
 
     @Override
@@ -78,15 +34,14 @@ public class Employee {
         return employeeNumber + "," + birthDate + "," + firstName + "," + lastName + "," + gender + "," + hireDate;
     }
 
-//    public List<Employee> getEmployeeByLastName(List<Employee> employeeSet, String lastName) {
-//        List<Employee> result = new ArrayList<>();
-//        for (Employee employee : employeeSet) {
-//            if (employee.getLastName().equals(lastName)) {
-//                result.add(employee);
-//            }
-//        }
-//        return result;
-//    }
-
-
+    @Override
+    public int compareTo(Employee o) {
+        if (this.getLastName().compareTo(o.getLastName()) < 0) {
+            return -1;
+        } else if (this.getLastName().compareTo(o.getLastName()) > 0) {
+            return 1;
+        } else {
+            return 0;
+        }
+    }
 }

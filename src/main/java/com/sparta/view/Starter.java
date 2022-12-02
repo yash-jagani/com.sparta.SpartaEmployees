@@ -1,47 +1,46 @@
 package com.sparta.view;
 
+import com.sparta.controller.EmployeeFactory;
+import com.sparta.controller.EmployeeTree;
+import com.sparta.controller.InputValidator;
 import com.sparta.logger.LoggerClass;
-import com.sparta.model.Employee;
-import com.sparta.model.EmployeeFactory;
 
-import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
+import java.io.IOException;
 import java.util.Scanner;
-import java.util.TreeSet;
 
+import static com.sparta.controller.Converter.convertToEmployees;
 
 public class Starter {
-    public static void start(){
-        LoggerClass.logTrace("program starts here");
 
-        // Start frontend
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter the last name to search:");
-        // search term to be provided to function
-        String search = scanner.next();
+    public static void start() {
+        Scanner in = new Scanner(System.in);
+        LoggerClass.logTrace("starting the program");
+        System.out.print("Please enter a number of employees you want to import from 1 to 1000: ");
+        String employeeNumberAsString = in.nextLine();
+        LoggerClass.logTrace("validating employee number input");
+        int numberOfEmployees = InputValidator.employeeNumberValidator(employeeNumberAsString);
+        EmployeeTree employees = new EmployeeTree();
 
-        // Pass 'search' to controller and return a collection of results?
+        try {
+            LoggerClass.logTrace("converting string array of employees to object and inserts them into employee tree");
+            convertToEmployees(employees, EmployeeFactory.getEmployeesFromCsv(numberOfEmployees));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
 
-        // change this to the collection of results
-//        TreeSet results = new TreeSet<>();
+        //print all employees
+        LoggerClass.logTrace("printing list of employees");
+        System.out.println("A list with " + numberOfEmployees + " employees:");
+        employees.inorder(); //:)
+        System.out.println("========================================");
+        System.out.print("Please enter the last name you want to search for:\n ");
+        String lastNameInput = in.nextLine();
 
-        // loop the collection and present output
-//        for (int i = 0; i < results.size()-1; i++) {
-//            String.format("%d. %s $s (Employee No.: %d) is a %s born on %t and hired on %t",
-//            i, results.getFirstName(), results.getLastName, results.getEmployeeNumber, results.getGender, results.getBirthDate, results.getHireDate);
-//        }
-
-        // End frontend
-
-        //Main app function
-        LoggerClass.logTrace("formatting date");
-//        EmployeeFactory.printEmployees(EmployeeFactory.getEmployeeList(998));
-        List<Employee> employees = new ArrayList<>(EmployeeFactory.getEmployeeList(998));
-//        employees.add(new Employee("10034",LocalDate.parse("12/29/1962"),"Bader","Swan","M",LocalDate.parse("9/21/1988")));
-//        employees.add(new Employee("10035", LocalDate.parse("12/29/1962"),"Bader","Swan","M",LocalDate.parse("9/21/1988")));
-
-        System.out.println(EmployeeFactory.getEmployeeByLastName(employees, search));
+        String lastName = InputValidator.lastNameValidator(lastNameInput);
+        LoggerClass.logTrace("validating employee last name");
+//pass user search to search function
+        employees.employeeSearchByLastName(lastName);
+        in.close();
+        LoggerClass.logTrace("program has ended");
     }
-
 }

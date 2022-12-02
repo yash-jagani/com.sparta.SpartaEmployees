@@ -1,1 +1,206 @@
-[ERROR] 2022-12-01 18:48:47.240 [main] Starter - Text '15/06/2017' could not be parsed: Invalid value for MonthOfYear (valid values 1 - 12): 15
+[TRACE] 2022-12-02 18:41:49.325 [main] Starter - starting the program
+[TRACE] 2022-12-02 18:41:49.328 [main] Starter - 
+[TRACE] 2022-12-02 18:44:22.509 [main] Starter - starting the program
+[TRACE] 2022-12-02 18:44:22.511 [main] Starter - 
+[TRACE] 2022-12-02 18:47:52.666 [main] Starter - starting the program
+[TRACE] 2022-12-02 18:47:52.668 [main] Starter - 
+[TRACE] 2022-12-02 18:48:58.963 [main] Starter - starting the program
+[TRACE] 2022-12-02 18:48:58.966 [main] Starter - 
+[TRACE] 2022-12-02 18:53:50.041 [main] Starter - starting the program
+[TRACE] 2022-12-02 18:53:50.043 [main] Starter - 
+[TRACE] 2022-12-02 18:54:27.573 [main] Starter - starting the program
+[TRACE] 2022-12-02 18:54:27.575 [main] Starter - 
+[TRACE] 2022-12-02 18:55:42.064 [main] Starter - starting the program
+[TRACE] 2022-12-02 18:55:42.066 [main] Starter - 
+[TRACE] 2022-12-02 18:56:36.583 [main] Starter - starting the program
+[TRACE] 2022-12-02 18:56:36.586 [main] Starter - 
+[TRACE] 2022-12-02 18:57:03.390 [main] Starter - starting the program
+[TRACE] 2022-12-02 18:57:03.393 [main] Starter - 
+[TRACE] 2022-12-02 18:57:34.964 [main] Starter - starting the program
+[TRACE] 2022-12-02 18:57:34.966 [main] Starter - 
+[TRACE] 2022-12-02 18:58:47.635 [main] Starter - starting the program
+[TRACE] 2022-12-02 18:58:47.637 [main] Starter - 
+[TRACE] 2022-12-02 19:07:46.979 [main] Starter - starting the program
+[TRACE] 2022-12-02 19:07:46.982 [main] Starter - 
+[TRACE] 2022-12-02 19:07:54.231 [main] Starter - splitting employee data into parameters for employee objects
+[TRACE] 2022-12-02 19:08:16.943 [main] Starter - program has ended
+[TRACE] 2022-12-02 19:08:29.936 [main] Starter - starting the program
+[TRACE] 2022-12-02 19:08:29.941 [main] Starter - 
+[TRACE] 2022-12-02 19:08:31.582 [main] Starter - starting the program
+[TRACE] 2022-12-02 19:08:31.585 [main] Starter - 
+[TRACE] 2022-12-02 19:09:18.699 [main] Starter - starting the program
+[TRACE] 2022-12-02 19:09:18.701 [main] Starter - 
+[TRACE] 2022-12-02 19:24:10.151 [main] Starter - starting the program
+[TRACE] 2022-12-02 19:24:21.324 [main] Starter - 
+[TRACE] 2022-12-02 19:24:21.350 [main] Starter - splitting employee data into parameters for employee objects
+[TRACE] 2022-12-02 19:24:57.382 [main] Starter - program has ended
+[TRACE] 2022-12-02 19:26:24.887 [main] Starter - starting the program
+[TRACE] 2022-12-02 19:27:11.053 [main] Starter - starting the program
+[TRACE] 2022-12-02 19:27:18.075 [main] Starter - 
+[TRACE] 2022-12-02 19:27:18.108 [main] Starter - splitting employee data into parameters for employee objects
+[TRACE] 2022-12-02 19:27:33.820 [main] Starter - program has ended
+[TRACE] 2022-12-02 19:41:21.007 [main] Starter - starting the program
+[TRACE] 2022-12-02 19:41:22.619 [main] Starter - starting the program
+[TRACE] 2022-12-02 19:41:26.649 [main] Starter - validating employee number input
+[TRACE] 2022-12-02 19:41:35.601 [main] Starter - 
+[TRACE] 2022-12-02 19:41:35.629 [main] Starter - splitting employee data into parameters for employee objects
+[TRACE] 2022-12-02 19:41:42.007 [main] Starter - program has ended
+[TRACE] 2022-12-02 19:42:31.957 [main] Starter - starting the program
+[TRACE] 2022-12-02 19:42:59.262 [main] Starter - starting the program
+[TRACE] 2022-12-02 19:43:01.025 [main] Starter - validating employee number input
+[TRACE] 2022-12-02 19:43:03.155 [main] Starter - 
+[TRACE] 2022-12-02 19:43:03.182 [main] Starter - splitting employee data into parameters for employee objects
+[TRACE] 2022-12-02 19:43:20.304 [main] Starter - program has ended
+[TRACE] 2022-12-02 19:44:18.331 [main] Starter - starting the program
+[TRACE] 2022-12-02 19:44:19.761 [main] Starter - validating employee number input
+[TRACE] 2022-12-02 19:44:22.268 [main] Starter - 
+[TRACE] 2022-12-02 19:44:22.294 [main] Starter - splitting employee data into parameters for employee objects
+[TRACE] 2022-12-02 19:44:28.100 [main] Starter - program has ended
+[TRACE] 2022-12-02 19:49:31.119 [main] Starter - starting the program
+[TRACE] 2022-12-02 19:49:32.204 [main] Starter - validating employee number input
+[TRACE] 2022-12-02 19:49:32.228 [main] Starter - splitting employee data into parameters for employee objects
+[TRACE] 2022-12-02 19:49:37.171 [main] Starter - validating employee last name
+[TRACE] 2022-12-02 19:49:37.172 [main] Starter - program has ended
+[TRACE] 2022-12-02 19:57:04.186 [main] Starter - starting the program
+[TRACE] 2022-12-02 19:57:06.653 [main] Starter - validating employee number input
+[TRACE] 2022-12-02 19:57:06.679 [main] Starter - splitting employee data into parameters for employee objects
+[TRACE] 2022-12-02 19:57:06.685 [main] Starter - printing list of employees
+[TRACE] 2022-12-02 19:57:26.260 [main] Starter - validating employee last name
+[TRACE] 2022-12-02 19:57:26.260 [main] Starter - program has ended
+[TRACE] 2022-12-02 20:02:29.750 [main] Starter - starting the program
+[TRACE] 2022-12-02 20:02:35.331 [main] Starter - validating employee number input
+[TRACE] 2022-12-02 20:02:35.333 [main] Starter - converting string array of employees to object and inserts them into employee tree
+[TRACE] 2022-12-02 20:02:35.360 [main] Starter - splitting employee data into parameters for employee objects
+[TRACE] 2022-12-02 20:02:35.370 [main] Starter - printing list of employees
+[TRACE] 2022-12-02 20:02:42.150 [main] Starter - validating employee last name
+[TRACE] 2022-12-02 20:02:42.150 [main] Starter - printing data of matching employee(s)
+[TRACE] 2022-12-02 20:02:42.150 [main] Starter - searching for match
+[TRACE] 2022-12-02 20:02:42.151 [main] Starter - searching right
+[TRACE] 2022-12-02 20:02:42.151 [main] Starter - searching for match
+[TRACE] 2022-12-02 20:02:42.151 [main] Starter - searching right
+[TRACE] 2022-12-02 20:02:42.151 [main] Starter - searching for match
+[TRACE] 2022-12-02 20:02:42.151 [main] Starter - searching right
+[TRACE] 2022-12-02 20:02:42.151 [main] Starter - searching for match
+[TRACE] 2022-12-02 20:02:42.151 [main] Starter - searching right
+[TRACE] 2022-12-02 20:02:42.151 [main] Starter - searching for match
+[TRACE] 2022-12-02 20:02:42.151 [main] Starter - searching right
+[TRACE] 2022-12-02 20:02:42.151 [main] Starter - searching for match
+[TRACE] 2022-12-02 20:02:42.151 [main] Starter - searching right
+[TRACE] 2022-12-02 20:02:42.151 [main] Starter - searching for match
+[TRACE] 2022-12-02 20:02:42.151 [main] Starter - searching right
+[TRACE] 2022-12-02 20:02:42.151 [main] Starter - searching for match
+[TRACE] 2022-12-02 20:02:42.151 [main] Starter - searching left
+[TRACE] 2022-12-02 20:02:42.152 [main] Starter - searching for match
+[TRACE] 2022-12-02 20:02:42.152 [main] Starter - match found
+[TRACE] 2022-12-02 20:02:42.152 [main] Starter - program has ended
+[TRACE] 2022-12-02 20:04:08.418 [main] Starter - starting the program
+[TRACE] 2022-12-02 20:04:09.718 [main] Starter - validating employee number input
+[TRACE] 2022-12-02 20:04:09.720 [main] Starter - converting string array of employees to object and inserts them into employee tree
+[TRACE] 2022-12-02 20:04:09.742 [main] Starter - splitting employee data into parameters for employee objects
+[TRACE] 2022-12-02 20:04:09.748 [main] Starter - printing list of employees
+[TRACE] 2022-12-02 20:04:09.749 [main] Starter - printing data of matching employee(s)
+[TRACE] 2022-12-02 20:04:17.198 [main] Starter - validating employee last name
+[TRACE] 2022-12-02 20:04:17.198 [main] Starter - searching for match
+[TRACE] 2022-12-02 20:04:17.199 [main] Starter - searching left
+[TRACE] 2022-12-02 20:04:17.199 [main] Starter - searching for match
+[TRACE] 2022-12-02 20:04:17.199 [main] Starter - searching left
+[TRACE] 2022-12-02 20:04:17.199 [main] Starter - searching for match
+[TRACE] 2022-12-02 20:04:17.199 [main] Starter - match found
+[TRACE] 2022-12-02 20:04:17.199 [main] Starter - searching left
+[TRACE] 2022-12-02 20:04:17.199 [main] Starter - searching for match
+[TRACE] 2022-12-02 20:04:17.199 [main] Starter - program has ended
+[TRACE] 2022-12-02 20:05:31.385 [main] Starter - starting the program
+[TRACE] 2022-12-02 20:05:32.334 [main] Starter - validating employee number input
+[TRACE] 2022-12-02 20:05:32.336 [main] Starter - converting string array of employees to object and inserts them into employee tree
+[TRACE] 2022-12-02 20:05:32.364 [main] Starter - splitting employee data into parameters for employee objects
+[TRACE] 2022-12-02 20:05:32.369 [main] Starter - printing list of employees
+[TRACE] 2022-12-02 20:05:32.369 [main] Starter - printing data of matching employee(s)
+[TRACE] 2022-12-02 20:05:36.388 [main] Starter - validating employee last name
+[TRACE] 2022-12-02 20:05:36.389 [main] Starter - searching for match
+[TRACE] 2022-12-02 20:05:36.389 [main] Starter - match found
+[TRACE] 2022-12-02 20:05:36.389 [main] Starter - printing data of matching employee(s)
+[TRACE] 2022-12-02 20:05:36.389 [main] Starter - program has ended
+[TRACE] 2022-12-02 20:05:45.908 [main] Starter - starting the program
+[TRACE] 2022-12-02 20:05:49.846 [main] Starter - validating employee number input
+[TRACE] 2022-12-02 20:05:49.848 [main] Starter - converting string array of employees to object and inserts them into employee tree
+[TRACE] 2022-12-02 20:05:49.874 [main] Starter - splitting employee data into parameters for employee objects
+[TRACE] 2022-12-02 20:05:49.879 [main] Starter - printing list of employees
+[TRACE] 2022-12-02 20:05:49.880 [main] Starter - printing data of matching employee(s)
+[TRACE] 2022-12-02 20:06:20.607 [main] Starter - starting the program
+[TRACE] 2022-12-02 20:06:21.646 [main] Starter - validating employee number input
+[TRACE] 2022-12-02 20:06:21.648 [main] Starter - converting string array of employees to object and inserts them into employee tree
+[TRACE] 2022-12-02 20:06:21.680 [main] Starter - splitting employee data into parameters for employee objects
+[TRACE] 2022-12-02 20:06:21.689 [main] Starter - printing list of employees
+[TRACE] 2022-12-02 20:06:21.693 [main] Starter - printing data of matching employee(s)
+[TRACE] 2022-12-02 20:06:22.217 [main] Starter - starting the program
+[TRACE] 2022-12-02 20:06:24.064 [main] Starter - validating employee number input
+[TRACE] 2022-12-02 20:06:24.066 [main] Starter - converting string array of employees to object and inserts them into employee tree
+[TRACE] 2022-12-02 20:06:24.091 [main] Starter - splitting employee data into parameters for employee objects
+[TRACE] 2022-12-02 20:06:24.096 [main] Starter - printing list of employees
+[TRACE] 2022-12-02 20:06:24.100 [main] Starter - printing data of matching employee(s)
+[TRACE] 2022-12-02 20:06:50.963 [main] Starter - starting the program
+[TRACE] 2022-12-02 20:06:51.420 [main] Starter - validating employee number input
+[TRACE] 2022-12-02 20:06:51.422 [main] Starter - converting string array of employees to object and inserts them into employee tree
+[TRACE] 2022-12-02 20:06:51.446 [main] Starter - splitting employee data into parameters for employee objects
+[TRACE] 2022-12-02 20:06:51.451 [main] Starter - printing list of employees
+[TRACE] 2022-12-02 20:06:57.282 [main] Starter - validating employee last name
+[TRACE] 2022-12-02 20:06:57.282 [main] Starter - searching for match
+[TRACE] 2022-12-02 20:06:57.282 [main] Starter - match found
+[TRACE] 2022-12-02 20:06:57.282 [main] Starter - printing data of matching employee(s)
+[TRACE] 2022-12-02 20:06:57.282 [main] Starter - program has ended
+[TRACE] 2022-12-02 20:07:45.594 [main] Starter - starting the program
+[TRACE] 2022-12-02 20:07:46.790 [main] Starter - validating employee number input
+[TRACE] 2022-12-02 20:07:46.792 [main] Starter - converting string array of employees to object and inserts them into employee tree
+[TRACE] 2022-12-02 20:07:46.819 [main] Starter - splitting employee data into parameters for employee objects
+[TRACE] 2022-12-02 20:07:46.824 [main] Starter - printing list of employees
+[TRACE] 2022-12-02 20:07:50.306 [main] Starter - validating employee last name
+[TRACE] 2022-12-02 20:07:50.306 [main] Starter - searching for match
+[TRACE] 2022-12-02 20:07:50.306 [main] Starter - match found
+[TRACE] 2022-12-02 20:07:50.306 [main] Starter - printing data of matching employee(s)
+[TRACE] 2022-12-02 20:07:50.307 [main] Starter - program has ended
+[TRACE] 2022-12-02 20:09:08.979 [main] Starter - starting the program
+[TRACE] 2022-12-02 20:09:10.269 [main] Starter - validating employee number input
+[TRACE] 2022-12-02 20:09:10.271 [main] Starter - converting string array of employees to object and inserts them into employee tree
+[TRACE] 2022-12-02 20:09:10.298 [main] Starter - splitting employee data into parameters for employee objects
+[TRACE] 2022-12-02 20:09:10.303 [main] Starter - printing list of employees
+[TRACE] 2022-12-02 20:09:12.771 [main] Starter - validating employee last name
+[TRACE] 2022-12-02 20:09:12.771 [main] Starter - searching for match
+[TRACE] 2022-12-02 20:09:12.771 [main] Starter - match found
+[TRACE] 2022-12-02 20:09:12.771 [main] Starter - printing data of matching employee(s)
+[TRACE] 2022-12-02 20:09:12.771 [main] Starter - program has ended
+[TRACE] 2022-12-02 20:09:32.970 [main] Starter - starting the program
+[TRACE] 2022-12-02 20:09:33.601 [main] Starter - validating employee number input
+[TRACE] 2022-12-02 20:09:33.603 [main] Starter - converting string array of employees to object and inserts them into employee tree
+[TRACE] 2022-12-02 20:09:33.626 [main] Starter - splitting employee data into parameters for employee objects
+[TRACE] 2022-12-02 20:09:33.631 [main] Starter - printing list of employees
+[TRACE] 2022-12-02 20:09:35.739 [main] Starter - validating employee last name
+[TRACE] 2022-12-02 20:09:35.739 [main] Starter - printing data of matching employee(s)
+[TRACE] 2022-12-02 20:09:35.739 [main] Starter - searching for match
+[TRACE] 2022-12-02 20:09:35.739 [main] Starter - match found
+[TRACE] 2022-12-02 20:09:35.739 [main] Starter - program has ended
+[TRACE] 2022-12-02 20:10:37.764 [main] Starter - starting the program
+[TRACE] 2022-12-02 20:10:39.142 [main] Starter - validating employee number input
+[TRACE] 2022-12-02 20:10:39.143 [main] Starter - converting string array of employees to object and inserts them into employee tree
+[TRACE] 2022-12-02 20:10:39.167 [main] Starter - splitting employee data into parameters for employee objects
+[TRACE] 2022-12-02 20:10:39.173 [main] Starter - printing list of employees
+[TRACE] 2022-12-02 20:10:41.923 [main] Starter - validating employee last name
+[TRACE] 2022-12-02 20:10:41.923 [main] Starter - searching for match
+[TRACE] 2022-12-02 20:10:41.923 [main] Starter - match found
+[TRACE] 2022-12-02 20:10:41.923 [main] Starter - printing data of matching employee(s)
+[TRACE] 2022-12-02 20:10:41.923 [main] Starter - program has ended
+[TRACE] 2022-12-02 20:10:59.865 [main] Starter - starting the program
+[TRACE] 2022-12-02 20:11:01.910 [main] Starter - validating employee number input
+[TRACE] 2022-12-02 20:11:01.912 [main] Starter - converting string array of employees to object and inserts them into employee tree
+[TRACE] 2022-12-02 20:11:01.938 [main] Starter - splitting employee data into parameters for employee objects
+[TRACE] 2022-12-02 20:11:01.943 [main] Starter - printing list of employees
+[TRACE] 2022-12-02 20:11:06.171 [main] Starter - validating employee last name
+[TRACE] 2022-12-02 20:11:06.171 [main] Starter - searching for match
+[TRACE] 2022-12-02 20:11:06.171 [main] Starter - searching left
+[TRACE] 2022-12-02 20:11:06.171 [main] Starter - searching for match
+[TRACE] 2022-12-02 20:11:06.171 [main] Starter - searching right
+[TRACE] 2022-12-02 20:11:06.171 [main] Starter - searching for match
+[TRACE] 2022-12-02 20:11:06.171 [main] Starter - searching right
+[TRACE] 2022-12-02 20:11:06.171 [main] Starter - searching for match
+[TRACE] 2022-12-02 20:11:06.171 [main] Starter - match found
+[TRACE] 2022-12-02 20:11:06.171 [main] Starter - printing data of matching employee(s)
+[TRACE] 2022-12-02 20:11:06.172 [main] Starter - program has ended
